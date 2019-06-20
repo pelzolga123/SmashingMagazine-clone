@@ -1,1 +1,1 @@
-# SmashingMagasine-clone-
+# SmashingMagazine-clone
