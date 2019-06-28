@@ -11,4 +11,4 @@ Used:
 
 # The Website
 
-Follow this link to access to the website: https://rawcdn.githack.com/pelzolga123/SmashingMagazine-clone/6004d616afdd5633ea4d1dce489541cbee2642b4/index.html
+Follow this link to access to the website: https://rawcdn.githack.com/pelzolga123/SmashingMagazine-clone/bbefcf763d4d304aa5b53ec8b1dfcd6886f8f4c1/index.html
