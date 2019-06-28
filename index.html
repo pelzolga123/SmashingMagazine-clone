@@ -4,14 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Kanit:400,600|Roboto+Slab|Source+Sans+Pro&display=swap');
-        @import url('https://fonts.googleapis.com/css?family=Lato:300i&display=swap');
-        @import url('https://fonts.googleapis.com/css?family=Mali:300i,700&display=swap');
-        @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
-        @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
-        @import url('https://fonts.googleapis.com/css?family=Kanit:400,600|Roboto+Slab&display=swap');
-    </style>
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="stylesheet" href="./app.css" />
     
@@ -19,7 +11,7 @@
   </head>
   
   <body>
-      <header>
+        <nav>
           <img class='header-logo' src='./img/logo.svg' alt=''/>
           <div>
             <ul class='header-ul'>
@@ -83,10 +75,13 @@
           <div class='button-div'>
             <button class='topic'><i class="fas fa-search"></i>Topics</button>
           </div>
-          
-        </header>
+        </nav>
+       
     <main>
-      <div class='main-header-div'>
+      
+      <section>
+        
+      <article class='main-header-div'>
         <div>
       <h1 class='main-header'>
         <span class='main-header-span'>
@@ -97,9 +92,11 @@
     <div>
       <button class='red-button'> Seriously, red?</button>
     </div>
-    </div>
-      <div class='articles-div'>
-      <article class='left-article-1'>
+  </article>
+
+
+      <article class='articles-outer'>
+      <div class='left-article-1'>
         <div class='left-article-div-outer-1'>
          <div class='left-article-div'>
             <img class='article-img' src='./img/laura-busche-dp.jpg' alt=''/>
@@ -114,9 +111,9 @@
         </ul>
  
       </div>
-      </article>
+    </div>
       
-          <article class='right-article-1'>
+          <div class='right-article-1'>
             <div class='left-article-div-outer-1'>
              <div class='left-article-div'>
                 <img class='article-img' src='./img/gleb-kuznetsov-portrait.jpg' alt=''/>
@@ -131,9 +128,9 @@
             </ul>
             
           </div>
-          </article>
+        </div>
 
-          <article class='left-article-2'>
+          <div class='left-article-2'>
               <div class='left-article-div-outer-2'>
                <div class='left-article-div'>
                   <img class='article-img' src='./img/suzanne-scacca-200px.jpg' alt=''/>
@@ -148,8 +145,9 @@
               </ul>
   
             </div>
-            </article>
-            <article class='right-article-2'>
+          </div>
+
+            <div class='right-article-2'>
                 <div class='left-article-div-outer-2'>
                  <div class='left-article-div'>
                     <img class='article-img' src='./img/vitaly-friedman-profile-pic.jpg' alt=''/>
@@ -163,11 +161,13 @@
                 </ul>
               
               </div>
-              </article>
+            </div>
       
-          </div>
-          <div class='explore-membership-outer-div'> 
-            <div class='explore-membership'>
+            </article>
+        </section>
+
+          <section class='explore-membership-section'> 
+            <article class='explore-membership'>
               <div class='left-column'>
               <p>All you want is a <span class='bold' >fast, secure web?</span> That's why we use ad blockers, 
                 too, you know. We gotta keep those servers running though... 
@@ -182,14 +182,14 @@
             <div class='right-column'>
               <img class='right-column-img' src='./img/cat-firechat.svg' alt=''/>
             </div>
-            </div>
-          </div>
+          </article>
+          </section>
 
 
 
             <section class='articles'>
 
-              <div class='articles-table'>
+              <article class='articles-table'>
               <div class='articles-first-row'>
               <div>
                 <span class='articles-time'>6 DAYS AGO</span>
@@ -278,10 +278,10 @@
               <div class='next-page'>
                 <a href='#' class='next-page-a'>SEE ALL LATEST ARTICLES  →</a>
               </div>
-            </div>
+            </article>
           </section>
             <section class='coming-up'>
-                <div class='conference'>
+                <article class='conference'>
                   
                   <span class='conference-span'>COMING UP NEXT • JUNE 25-26, 2019</span>
                   <h1><a href='#' class='conference-h1'>SmashingConf Toronto 2019</a></h1>
@@ -290,9 +290,9 @@
                   <button class='conference-button'>Explore all speakers and topics →</button>  
 
                   <img class='space-cat' src='./img/space-cat-toronto.svg' alt=''/> 
-                </div>
+                  </article>
 
-                <div class='persons'>
+                <article class='persons'>
                   <div class='main-person'>
                       <img class='main-person-img' src='./img/jules-forrest-250px-opt.png' alt=''/>
                   <div class='persons-decription'>
@@ -369,11 +369,11 @@
               <div class='next-page'>
                   <a href='#' class='next-page-a'>MORE LINKS ON TWITTER →</a>
                 </div>
-            </div>
+              </article>
 
 
 
-                <div class='featured'>
+                <article class='featured'>
                   <div class='featured-div'>
                   <span class='featured-span'>FEATURED SMASHING BOOK</span>
                   <h1 class='featured-h1'><a href='#' class='featured-a'>Design Systems</a></h1>
@@ -383,12 +383,12 @@
                     <button class='featured-button'>Table of Contents ↬</button>
                   </div>
                     <img class='featured-img' src='./img/design-systems-hardcover-book.png' alt=''/>
-                </div>
+                </article>
               
             </section>
             <section class='curated-posts'>
 
-            <div class='guides'>
+            <article class='guides'>
               <div class='guides-div'>
               <h1 class='guides-h1'>New Front-End Challenges To Master</h1>
               <ul class='guides-ul'>
@@ -461,10 +461,11 @@
                 </div>  
             </div>
             </div>
-          </div>
-          <div class='newsletter-next-page'>
+          </article>
+
+          <article class='newsletter-next-page'>
               <a href='#' class='next-page-a'>SEE ALL LATEST ARTICLES  →</a>
-            </div>
+          </article>
             </section>
 
     </main>
