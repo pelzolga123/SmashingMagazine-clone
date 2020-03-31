@@ -3,7 +3,7 @@
 <img src="https://i.ibb.co/HN2GC3S/Screenshot-from-2020-03-16-17-48-20.png" alt="Screenshot-from-2020-03-16-17-48-20" border="0">
 
 ## About The Project
-This is a clone of Smashing Magazine page. Webpage contains embedded images and thumbnails.
+This is a clone of the Smashing Magazine page. The webpage contains embedded images and thumbnails.
 
 ## Live version
 [Smashing magazine clone](https://rawcdn.githack.com/pelzolga123/SmashingMagazine-clone/bbefcf763d4d304aa5b53ec8b1dfcd6886f8f4c1/index.html)
@@ -11,6 +11,14 @@ This is a clone of Smashing Magazine page. Webpage contains embedded images and 
 ### Built With
 * HTML5
 * CSS
+
+### Development
+
+* Clone project
+```
+git clone https://github.com/pelzolga123/SmashingMagazine-clone.git
+```
+* Open `index.html` file with a browser.
 
 ## Author
 
